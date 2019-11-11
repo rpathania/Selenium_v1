@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<HiringModule>
+<TestEnvironments>
+<TestEnvironment id = "1">	
+	<testerId>ANIKET</testerId>
+	<testerPass>test@123</testerPass>
+	<HRId>tarsriva</HRId>
+	<HRPass>test@123</HRPass>
+	<URL>https://hris-steria-trn.oracleoutsourcing.com/psp/DSERAJ/signon.html</URL>
+	<URLHC>https://hris-steria-trn.oracleoutsourcing.com/psc/DSERAJ//EMPLOYEE/HRMS/q/?ICAction=ICQryNameURL=PUBLIC.Z_IND_HEADCOUNT_MGR_PB</URLHC>
+</TestEnvironment>
+<TestEnvironment id = "2">
+	<testerId>HIRE_AUTO</testerId>
+	<testerPass>test@12312</testerPass>
+	<HRId>tarsriva</HRId>
+	<HRPass>test@1231</HRPass>
+	<URL>https://soprasteria-hris-uat.opc.oracleoutsourcing.com/SERAHTST/signon.html</URL>
+	<URLHC>https://soprasteria-hris-uat.opc.oracleoutsourcing.com/psc/SERAHTST/EMPLOYEE/HRMS/q/?ICAction=ICQryNameURL=PUBLIC.Z_IND_HEADCOUNT_MGR_PB</URLHC>
+</TestEnvironment>
+<TestEnvironment id = "3">	
+	<testerId>ANIKET</testerId>
+	<testerPass>test@123</testerPass>
+	<HRId>tarsriva3</HRId>
+	<HRPass>test@123</HRPass>
+	<URL>https://hris-steria-trn.oracleoutsourcing.com/psp/DSER1J/signon.html</URL>
+	<URLHC>https://hris-steria-trn.oracleoutsourcing.com/psc/DSER1J//EMPLOYEE/HRMS/q/?ICAction=ICQryNameURL=PUBLIC.Z_IND_HEADCOUNT_MGR_PB</URLHC>
+</TestEnvironment>
+</TestEnvironments>
+<Navigations>
+	<Navigation>
+	<path>Main Menu > Reporting Tools > Query > Query Manager</path>
+	</Navigation>	
+	<Navigation>
+	<path>Main Menu > Workforce Administration > Job Information > Job Data</path>
+	</Navigation>
+	<Navigation>
+	<path>Main Menu > Workforce Administration > Template-Based Hire > Template-Based Hire</path>
+	</Navigation>
+	<Navigation>
+	<path>Main Menu > Position Management - PMD > Position Management - PMD</path>
+	</Navigation>
+	<Navigation>
+	<path>Main Menu > Sopra Steria Reports > India Reports > India Headcount Details</path>
+	</Navigation>
+</Navigations>
+<TemplateID>
+	<SIPS>STL_IN_HIRE_EMP</SIPS>
+	<SIIntern>STL_IN_HIRE_CON</SIIntern>
+	<SITrainee>STL_IN_HIRE_EMP</SITrainee>
+	<SIFTC>STL_IN_HIRE_FTC</SIFTC>
+	<SI3PC>STL_IN_HIRE_CON</SI3PC>
+	<KNPS>SBS_IN_HIRE_EMP</KNPS>
+	<KNIntern>SBS_IN_HIRE_CON</KNIntern>
+	<KNTrainee>SBS_IN_HIRE_EMP</KNTrainee>
+	<KNFTC>SBS_IN_HIRE_FTC</KNFTC>
+	<KN3PC>SBS_IN_HIRE_CON</KN3PC>
+</TemplateID>
+<ReasonCode>
+	<PS>New Hire Employee</PS>
+	<Intern>Add Contingent Worker</Intern>
+	<Trainee>New Hire Employee</Trainee>
+	<FTC>New Hire Employee</FTC>
+	<TPC>Add Contingent Worker</TPC>
+</ReasonCode>
+<PayGroup>
+	<PS>STINPG ITS</PS>
+	<Intern>STINPG INT</Intern>
+	<Trainee>STINPG ITS</Trainee>
+	<FTC>STINPG CWR</FTC>
+	<TPC>STINPG CWR</TPC>
+</PayGroup>
+<CityState>
+	<DL>Dwarka</DL>
+	<MH>Pune</MH>
+	<AP>Hyderabad</AP>
+	<KA>Bangalore</KA>
+	<TN>Chennai</TN>
+</CityState>
+</HiringModule>
